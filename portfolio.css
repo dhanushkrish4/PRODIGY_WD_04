@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .header-content h1 {
+    font-size: 3rem;
+  }
+  
+  .header-content p {
+    font-size: 1.2rem;
+  }
+  #about {
+    display: flex;
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .about-text ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-text ul li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #projects {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .project-item h3 {
+    font-size: 1.5rem;
+  }
+  
+  .project-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  .social-links a:hover {
+    color: #007bff;
+  }
